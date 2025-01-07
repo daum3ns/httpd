@@ -157,11 +157,6 @@ RELEASE SHOWSTOPPERS:
 PATCHES ACCEPTED TO BACKPORT FROM TRUNK:
   [ start all new proposals below, under PATCHES PROPOSED. ]
 
-  *) mod_authnz_ldap: Fix attribute allocation size.
-     trunk patch: https://svn.apache.org/r1921971
-     2.4.x patch: svn merge -c 1921971 ^/httpd/httpd/trunk .
-     +1: jorton, jailletc36, covener
-
 PATCHES PROPOSED TO BACKPORT FROM TRUNK:
   [ New proposals should be added at the end of the list ]
 
