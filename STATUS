@@ -185,9 +185,6 @@ PATCHES ACCEPTED TO BACKPORT FROM TRUNK:
      2.4.x patch: svn merge -c 1903680,1912663,1917013,1912941,1913078,1913338,1914035,1914439,1915270,1915543 ^/httpd/httpd/trunk .
      +1: jailletc36, covener, jorton, jim
 
-PATCHES PROPOSED TO BACKPORT FROM TRUNK:
-  [ New proposals should be added at the end of the list ]
-
   *) Add the ldap-search option to mod_authnz_ldap, allowing authorization
      to be based on arbitrary expressions that do not include the username.
      Make sure that when ldap searches are too long, we explicitly log the
@@ -216,15 +213,6 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
      PR: https://github.com/apache/httpd/pull/469
      +1: ylavic, rpluem, jim
 
-  *) CMake: Remove awk dependency when building using CMake. Before this awk was
-     required for -DWITH_MODULES option.
-     trunk patch: https://svn.apache.org/r1919413
-                  https://svn.apache.org/r1919587
-                  https://svn.apache.org/r1919602
-     2.4.x patch: svn merge -c r1919413 -c r1919587 -c r1919602 ^/httpd/httpd/trunk .
-     +1: ivan
-     +0: jorton - falls under RTC exception for "non-Unix build"
-
   *) mod_proxy_fcgi: Fix proxy-fcgi-pathinfo=full
      trunk patch: https://svn.apache.org/r1919547
                   https://svn.apache.org/r1921238
@@ -247,6 +235,18 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
      trunk patch: https://svn.apache.org/r1921260
      2.4.x patch: svn merge -c 1921260 ^/httpd/httpd/trunk .
      +1: jorton, covener, jim
+
+PATCHES PROPOSED TO BACKPORT FROM TRUNK:
+  [ New proposals should be added at the end of the list ]
+
+  *) CMake: Remove awk dependency when building using CMake. Before this awk was
+     required for -DWITH_MODULES option.
+     trunk patch: https://svn.apache.org/r1919413
+                  https://svn.apache.org/r1919587
+                  https://svn.apache.org/r1919602
+     2.4.x patch: svn merge -c r1919413 -c r1919587 -c r1919602 ^/httpd/httpd/trunk .
+     +1: ivan
+     +0: jorton - falls under RTC exception for "non-Unix build"
 
 PATCHES/ISSUES THAT ARE BEING WORKED
   [ New entries should be added at the START of the list ]
