@@ -157,10 +157,6 @@ RELEASE SHOWSTOPPERS:
 PATCHES ACCEPTED TO BACKPORT FROM TRUNK:
   [ start all new proposals below, under PATCHES PROPOSED. ]
 
-  *) mod_lua: Make r.ap_auth_type writable
-     trunk patch: https://svn.apache.org/r1921260
-     2.4.x patch: svn merge -c 1921260 ^/httpd/httpd/trunk .
-     +1: jorton, covener, jim
 
 PATCHES PROPOSED TO BACKPORT FROM TRUNK:
   [ New proposals should be added at the end of the list ]
