@@ -172,7 +172,7 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
   *) mod_http2: Fix failed request counting and keepalive timeout
      trunk patch: https://svn.apache.org/r1921805
      2.4.x patch: svn merge -c r1921805 ^/httpd/httpd/trunk .
-     +1: icing, jim
+     +1: icing, jim, rpluem
 
 PATCHES/ISSUES THAT ARE BEING WORKED
   [ New entries should be added at the START of the list ]
