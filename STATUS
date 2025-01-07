@@ -157,15 +157,6 @@ RELEASE SHOWSTOPPERS:
 PATCHES ACCEPTED TO BACKPORT FROM TRUNK:
   [ start all new proposals below, under PATCHES PROPOSED. ]
 
-  *) mod_proxy: Honor parameters of ProxyPassMatch workers with substitution
-                in the host name or port. PR 69233.
-     trunk patch: https://svn.apache.org/r1912462
-                  https://svn.apache.org/r1919617
-                  https://svn.apache.org/r1919619
-     2.4.x patch: https://patch-diff.githubusercontent.com/raw/apache/httpd/pull/469.diff
-     PR: https://github.com/apache/httpd/pull/469
-     +1: ylavic, rpluem, jim
-
   *) mod_proxy_fcgi: Fix proxy-fcgi-pathinfo=full
      trunk patch: https://svn.apache.org/r1919547
                   https://svn.apache.org/r1921238
