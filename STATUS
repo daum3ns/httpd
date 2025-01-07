@@ -157,12 +157,6 @@ RELEASE SHOWSTOPPERS:
 PATCHES ACCEPTED TO BACKPORT FROM TRUNK:
   [ start all new proposals below, under PATCHES PROPOSED. ]
 
-  *) mod_log_config: Fix LogFormat directive merging
-     trunk patch: https://svn.apache.org/r1921305
-                  https://svn.apache.org/r1921306
-     2.4.x patch: svn merge -c 1921305,1921306 ^/httpd/httpd/trunk .
-     +1: jorton, covener, jim
-
   *) mod_lua: Make r.ap_auth_type writable
      trunk patch: https://svn.apache.org/r1921260
      2.4.x patch: svn merge -c 1921260 ^/httpd/httpd/trunk .
