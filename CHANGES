@@ -1,6 +1,15 @@
                                                          -*- coding: utf-8 -*-
 Changes with Apache 2.4.63
 
+  *) mod_md: update to version 2.4.29
+     - Fixed HTTP-01 challenges to not carry a final newline, as some ACME
+       server fail to ignore it. [Michael Kaufmann (@mkauf)]
+     - Fixed missing label+newline in server-status plain text output when
+       MDStapling is enabled.
+
+  *) mod_ssl: Restore support for loading PKCS#11 keys via ENGINE
+     without "SSLCryptoDevice" configured.  [Joe Orton]
+
   *) mod_authnz_ldap: Fix possible memory corruption if the
      AuthLDAPSubGroupAttribute directive is configured.  [Joe Orton]  
 
