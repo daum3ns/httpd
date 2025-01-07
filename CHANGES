@@ -1,6 +1,12 @@
                                                          -*- coding: utf-8 -*-
 Changes with Apache 2.4.63
 
+  *) mod_log_config: Fix merging for the "LogFormat" directive.
+     PR: 65222. [Michael Kaufmann <mail michael-kaufmann.ch>]
+
+  *) mod_lua: Make r.ap_auth_type writable.  PR 62497.
+     [Michael Osipov <michaelo apache.org>]
+
   *) mod_md: update to version 2.4.29
      - Fixed HTTP-01 challenges to not carry a final newline, as some ACME
        server fail to ignore it. [Michael Kaufmann (@mkauf)]
