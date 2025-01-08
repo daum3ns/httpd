@@ -548,7 +548,7 @@ Require ldap-filter "&amp;(cell=*)(department=marketing)"
     LDAP server:</p>
 
 <highlight language="config">
-&lt;LocationMatch ^/dav/(?<SITENAME>[^/]+)/&gt;
+&lt;LocationMatch ^/dav/(?&lt;SITENAME&gt;[^/]+)/&gt;
 Require ldap-search (cn=%{ldap:%{unescape:%{env:MATCH_SITENAME}} Website)
 &lt;/LocationMatch&gt;
 </highlight>
