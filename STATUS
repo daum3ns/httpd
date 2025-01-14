@@ -180,8 +180,8 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
           https://svn.apache.org/r1910847
           https://svn.apache.org/r1912477
           https://svn.apache.org/r1918297
-     2.4.x patch: svn merge -c 1910518,1910847,1912477,1918297 ^/httpd/httpd/trunk . 
-     +1: jailletc36,
+     2.4.x patch: svn merge -c 1910518,1910847,1912477,1918297 ^/httpd/httpd/trunk .
+     +1: jailletc36, jim
 
 PATCHES/ISSUES THAT ARE BEING WORKED
   [ New entries should be added at the START of the list ]
