@@ -183,6 +183,14 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
      2.4.x patch: svn merge -c 1910518,1910847,1912477,1918297 ^/httpd/httpd/trunk .
      +1: jailletc36, jim
 
+  *) Do not add a space before '|' when setting the value for stickysession in the
+     balancer manager as this breaks the stickysession configuration once a new
+     configuration is submitted by the balancer manager. PR: 69510
+     trunk patch: https://svn.apache.org/r1923101
+     2.4.x patch: svn merge -c 1923101 ^/httpd/httpd/trunk .
+     +1: jim
+
+
 PATCHES/ISSUES THAT ARE BEING WORKED
   [ New entries should be added at the START of the list ]
 
