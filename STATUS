@@ -157,6 +157,19 @@ RELEASE SHOWSTOPPERS:
 PATCHES ACCEPTED TO BACKPORT FROM TRUNK:
   [ start all new proposals below, under PATCHES PROPOSED. ]
 
+  *) Easy patches: synch 2.4.x and trunk
+        - ab: Increase MAX_CONCURRENCY hard limit (from 20K to 200K)
+        - ab: Fix X509 * leak
+        - dav/fs/dbm.c: Remove error message references to "property" databases
+        - httpd.h: Fix comment
+     trunk patch:
+        - https://svn.apache.org/r1910518
+          https://svn.apache.org/r1910847
+          https://svn.apache.org/r1912477
+          https://svn.apache.org/r1918297
+     2.4.x patch: svn merge -c 1910518,1910847,1912477,1918297 ^/httpd/httpd/trunk .
+     +1: jailletc36, jim, ylavic
+
 
 PATCHES PROPOSED TO BACKPORT FROM TRUNK:
   [ New proposals should be added at the end of the list ]
@@ -170,25 +183,12 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
      +1: ivan
      +0: jorton - falls under RTC exception for "non-Unix build"
 
-  *) Easy patches: synch 2.4.x and trunk
-        - ab: Increase MAX_CONCURRENCY hard limit (from 20K to 200K)
-        - ab: Fix X509 * leak
-        - dav/fs/dbm.c: Remove error message references to "property" databases
-        - httpd.h: Fix comment
-     trunk patch:
-        - https://svn.apache.org/r1910518
-          https://svn.apache.org/r1910847
-          https://svn.apache.org/r1912477
-          https://svn.apache.org/r1918297
-     2.4.x patch: svn merge -c 1910518,1910847,1912477,1918297 ^/httpd/httpd/trunk .
-     +1: jailletc36, jim
-
   *) Do not add a space before '|' when setting the value for stickysession in the
      balancer manager as this breaks the stickysession configuration once a new
      configuration is submitted by the balancer manager. PR: 69510
      trunk patch: https://svn.apache.org/r1923101
      2.4.x patch: svn merge -c 1923101 ^/httpd/httpd/trunk .
-     +1: jim
+     +1: jim, ylavic
 
 
 PATCHES/ISSUES THAT ARE BEING WORKED
