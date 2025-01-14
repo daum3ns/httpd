@@ -188,7 +188,7 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
      configuration is submitted by the balancer manager. PR: 69510
      trunk patch: https://svn.apache.org/r1923101
      2.4.x patch: svn merge -c 1923101 ^/httpd/httpd/trunk .
-     +1: jim, ylavic
+     +1: jim, ylavic, jfclere
 
 
 PATCHES/ISSUES THAT ARE BEING WORKED
