@@ -1,6 +1,10 @@
                                                          -*- coding: utf-8 -*-
 Changes with Apache 2.4.63
 
+  *) mod_proxy_balancer: Fix the handling of the stickysession configuration
+     parameter by the balancer manager. PR 69510
+     [Yutaka Tokunou <tokunou.yutaka@fujitsu.com>]
+
   *) Add the ldap-search option to mod_authnz_ldap, allowing authorization
      to be based on arbitrary expressions that do not include the username.
      Make sure that when ldap searches are too long, we explicitly log the
