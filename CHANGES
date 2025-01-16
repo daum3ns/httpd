@@ -98,7 +98,7 @@ Changes with Apache 2.4.62
 
   *) SECURITY: CVE-2024-40725: Apache HTTP Server: source code
      disclosure with handlers configured via AddType (cve.mitre.org)
-     A partial fix for  CVE-2024-39884 in the core of Apache HTTP
+     A partial fix for CVE-2024-39884 in the core of Apache HTTP
      Server 2.4.61 ignores some use of the legacy content-type based
      configuration of handlers. "AddType" and similar configuration,
      under some circumstances where files are requested indirectly,
