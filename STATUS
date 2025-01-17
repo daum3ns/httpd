@@ -173,7 +173,7 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
   *) mod_http2: fix test_h2_200_17+18 for newer curl versions. Just add log
      output and add to test checks. No functional change.
      2.4.x patch: svn merge -c 1923187 ^/httpd/httpd/trunk .
-     +1: icing, 
+     +1: icing, jim,
 
 PATCHES/ISSUES THAT ARE BEING WORKED
   [ New entries should be added at the START of the list ]
