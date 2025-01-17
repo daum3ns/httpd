@@ -157,6 +157,10 @@ RELEASE SHOWSTOPPERS:
 PATCHES ACCEPTED TO BACKPORT FROM TRUNK:
   [ start all new proposals below, under PATCHES PROPOSED. ]
 
+  *) mod_http2: fix test_h2_200_17+18 for newer curl versions. Just add log
+     output and add to test checks. No functional change.
+     2.4.x patch: svn merge -c 1923187 ^/httpd/httpd/trunk .
+     +1: icing, jim, rjung
 
 PATCHES PROPOSED TO BACKPORT FROM TRUNK:
   [ New proposals should be added at the end of the list ]
@@ -169,11 +173,6 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
      2.4.x patch: svn merge -c r1919413 -c r1919587 -c r1919602 ^/httpd/httpd/trunk .
      +1: ivan
      +0: jorton - falls under RTC exception for "non-Unix build"
-
-  *) mod_http2: fix test_h2_200_17+18 for newer curl versions. Just add log
-     output and add to test checks. No functional change.
-     2.4.x patch: svn merge -c 1923187 ^/httpd/httpd/trunk .
-     +1: icing, jim,
 
 PATCHES/ISSUES THAT ARE BEING WORKED
   [ New entries should be added at the START of the list ]
