@@ -186,8 +186,8 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
      2.4.x patch: svn merge -c 1916054 ^/httpd/httpd/trunk .
      +1: jailletc36 (by inspection), 
 
-  *) mod_ssl: In set_override(), check the return value of set_allow_opts().
-              Github #310
+  *) core: In set_override(), check the return value of set_allow_opts().
+           Github #310
      trunk patch: https://svn.apache.org/r1916054
                   https://svn.apache.org/r1923218
      2.4.x patch: svn merge -c 1916054,1923218 ^/httpd/httpd/trunk .
