@@ -544,9 +544,8 @@ NoDecode option available in 2.3.12 and later.</td></tr>
          to remain <em>set</em> while allowing any others to be set.
       </p></div>
 
-      <div class="example"><p><code>
-      AllowOverride Options=Indexes,MultiViews
-      </code></p></div>
+      <pre class="prettyprint lang-config">AllowOverride Options=Indexes,MultiViews</pre>
+
       </dd>
     </dl>
 
@@ -5019,9 +5018,8 @@ certain events before failing a request</td></tr>
     has been specified by this directive. The intent is to limit access to
     paths derived from untrusted inputs.</p>
 
-    <div class="example"><p><code>
-    UNCList example.com other.example.com
-    </code></p></div>
+    <pre class="prettyprint lang-config">UNCList example.com other.example.com</pre>
+
 
     <div class="warning"><h3>Security</h3>
     <p>UNC paths accessed outside of request processing, such as during startup,
