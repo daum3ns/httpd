@@ -174,20 +174,20 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
                         PR 69358
      trunk patch: https://svn.apache.org/r1921067
      2.4.x patch: svn merge -c 1921067 ^/httpd/httpd/trunk .
-     +1: jailletc36 (by inspection), 
+     +1: jailletc36 (by inspection), rjung (keeps file in sync with trunk), 
 
   *) mod_ssl: Check SSL_CTX_new() return value.
               Github #402
      trunk patch: https://svn.apache.org/r1916054
      2.4.x patch: svn merge -c 1916054 ^/httpd/httpd/trunk .
-     +1: jailletc36 (by inspection), 
+     +1: jailletc36 (by inspection), rjung (reduce code drift), 
 
   *) core: In set_override(), check the return value of set_allow_opts().
            Github #310
-     trunk patch: https://svn.apache.org/r1916054
+     trunk patch: https://svn.apache.org/r1917017
                   https://svn.apache.org/r1923218
-     2.4.x patch: svn merge -c 1916054,1923218 ^/httpd/httpd/trunk .
-     +1: jailletc36, 
+     2.4.x patch: svn merge -c 1917017,1923218 ^/httpd/httpd/trunk .
+     +1: rjung (reduce code drift), 
 
 PATCHES/ISSUES THAT ARE BEING WORKED
   [ New entries should be added at the START of the list ]
