@@ -175,7 +175,7 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
      trunk patch: https://svn.apache.org/r1917017
                   https://svn.apache.org/r1923218
      2.4.x patch: svn merge -c 1917017,1923218 ^/httpd/httpd/trunk .
-     +1: rjung (reduce code drift), jorton
+     +1: rjung (reduce code drift), jorton, jailletc36
 
 PATCHES/ISSUES THAT ARE BEING WORKED
   [ New entries should be added at the START of the list ]
