@@ -157,17 +157,6 @@ RELEASE SHOWSTOPPERS:
 PATCHES ACCEPTED TO BACKPORT FROM TRUNK:
   [ start all new proposals below, under PATCHES PROPOSED. ]
 
-  *) mod_cache_socache: Fix a potential null pointer dereference.
-                        PR 69358
-     trunk patch: https://svn.apache.org/r1921067
-     2.4.x patch: svn merge -c 1921067 ^/httpd/httpd/trunk .
-     +1: jailletc36 (by inspection), rjung (keeps file in sync with trunk), jorton
-
-  *) mod_ssl: Check SSL_CTX_new() return value.
-              Github #402
-     trunk patch: https://svn.apache.org/r1916054
-     2.4.x patch: svn merge -c 1916054 ^/httpd/httpd/trunk .
-     +1: jailletc36 (by inspection), rjung (reduce code drift), jorton
 
 PATCHES PROPOSED TO BACKPORT FROM TRUNK:
   [ New proposals should be added at the end of the list ]
