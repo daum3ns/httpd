@@ -1,6 +1,11 @@
                                                          -*- coding: utf-8 -*-
 Changes with Apache 2.4.63
 
+  *) mod_dav: Update redirect-carefully example BrowserMatch config
+     to match more recent client versions.  PR 66148, 67039.
+     [Michal Maloszewski <michal.maloszewski canonical.com>,
+      Romain Tartière <romain blogreen.org>]
+
   *) mod_cache_socache: Fix possible crash on error path. PR 69358.
      [Ruediger Pluem]
 
