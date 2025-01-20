@@ -4,6 +4,9 @@ Changes with Apache 2.4.63
   *) mod_cache_socache: Fix possible crash on error path. PR 69358.
      [Ruediger Pluem]
 
+  *) mod_ssl: Fail cleanly at startup if OpenSSL initialization fails.
+     [StephenWall]
+
   *) mod_md: update to version 2.4.31
      - Improved error reporting when waiting for ACME server to verify domains
        or finalizing the order fails, e.g. times out.
