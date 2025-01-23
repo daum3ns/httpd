@@ -1,4 +1,6 @@
                                                          -*- coding: utf-8 -*-
+Changes with Apache 2.4.64
+
 Changes with Apache 2.4.63
 
   *) mod_dav: Update redirect-carefully example BrowserMatch config
