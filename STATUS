@@ -158,10 +158,6 @@ RELEASE SHOWSTOPPERS:
 PATCHES ACCEPTED TO BACKPORT FROM TRUNK:
   [ start all new proposals below, under PATCHES PROPOSED. ]
 
-
-PATCHES PROPOSED TO BACKPORT FROM TRUNK:
-  [ New proposals should be added at the end of the list ]
-
   *) CMake: Remove awk dependency when building using CMake. Before this awk was
      required for -DWITH_MODULES option.
      trunk patch: https://svn.apache.org/r1919413
@@ -177,6 +173,10 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
                   https://svn.apache.org/r1923218
      2.4.x patch: svn merge -c 1917017,1923218 ^/httpd/httpd/trunk .
      +1: rjung (reduce code drift), jorton, jailletc36
+
+
+PATCHES PROPOSED TO BACKPORT FROM TRUNK:
+  [ New proposals should be added at the end of the list ]
 
   *) mod_systemd: Add systemd socket activation
      Trunk version of patch:
