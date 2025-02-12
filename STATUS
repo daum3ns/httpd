@@ -194,6 +194,14 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
      Can be applied via apply_backport_pr.sh 515
      +1: rpluem
 
+  *) scoreboard/mod_http2: record durations of HTTP/2 requests.
+     Trunk version of patch:
+        https://svn.apache.org/r1923754
+     Backport version for 2.4.x of patch:
+        svn merge -c 1923754 ^/httpd/httpd/trunk .
+     backport needs adjusting MMN
+     +1: icing
+
 
 PATCHES/ISSUES THAT ARE BEING WORKED
   [ New entries should be added at the START of the list ]
