@@ -190,8 +190,9 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
   *) scoreboard/mod_http2: record durations of HTTP/2 requests.
      Trunk version of patch:
         https://svn.apache.org/r1923754
+        https://svn.apache.org/r1923806
      Backport version for 2.4.x of patch:
-        svn merge -c 1923754 ^/httpd/httpd/trunk .
+        svn merge -c 1923754,1923806 ^/httpd/httpd/trunk .
      backport needs adjusting MMN
      +1: icing
 
