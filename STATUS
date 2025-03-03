@@ -196,6 +196,12 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
      backport needs adjusting MMN
      +1: icing
 
+  *) mod_lua: Fix memory handling in output filter
+     Trunk version of patch:
+        https://svn.apache.org/r1924095
+     Backport version for 2.4.x of patch:
+        svn merge -c 1924095 ^/httpd/httpd/trunk .
+     +1: jorton, 
 
 PATCHES/ISSUES THAT ARE BEING WORKED
   [ New entries should be added at the START of the list ]
