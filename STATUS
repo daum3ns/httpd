@@ -206,8 +206,9 @@ PATCHES PROPOSED TO BACKPORT FROM TRUNK:
   *) mod_http2: update to v2.0.30
      Trunk version of patch:
         https://svn.apache.org/r1924145
+        https://svn.apache.org/r1924164
      Backport version for 2.4.x of patch:
-        svn merge -c 1924145 ^/httpd/httpd/trunk .
+        svn merge -c 1924145,r1924164 ^/httpd/httpd/trunk .
      +1: icing
 
 PATCHES/ISSUES THAT ARE BEING WORKED
